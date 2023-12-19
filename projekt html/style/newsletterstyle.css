@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@500&family=Kalnia:wght@300&family=Mukta:wght@300&family=Nunito:wght@200&family=Oswald:wght@200&family=Silkscreen:wght@700&display=swap');
+
+body {
+    height: auto;
+    background-image: url(https://tinydots.pl/i/s1/25/23/47/16077_forcropp_wm.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: Dancing Script;
+
+}
+

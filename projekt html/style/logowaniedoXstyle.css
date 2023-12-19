@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.log {
+    color: white;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    height: 600px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+.formularzlogowania {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email {
+    border-radius: 2px;
+    border: 10px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    margin-bottom: 5px;
+}
+
+.haslo {
+    border-radius: 2px;
+    border: 10px;
+    background-color: black;
+    color: white;
+    border-color: white;  
+}
+
+.potwierdz {
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    height: 30px;
+    width: 150px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.potwierdz:hover {
+    background-color: aqua;
+}

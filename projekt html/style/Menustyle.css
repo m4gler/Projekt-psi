@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@500&family=Kalnia:wght@300&family=Mukta:wght@300&family=Nunito:wght@200&family=Oswald:wght@200&family=Silkscreen:wght@700&family=Ubuntu&display=swap');
+
+body {
+    background-image: url(https://www.tapeciarnia.pl/tapety/normalne/215899_rozne_warzywa_owoce.jpg);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.box {
+    background-color: white;
+    height: 550px;
+    width: 600px;
+}
+
+.naglowek {
+    display: flex;
+    justify-content: center;
+    font-family: Ubuntu;
+    font-size: larger;
+}
+
+.jedzenie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+}

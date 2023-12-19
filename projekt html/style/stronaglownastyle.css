@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Kalnia:wght@300&family=Nunito:wght@200&family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Kalnia:wght@300&family=Nunito:wght@200&family=Oswald:wght@200&family=Silkscreen:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Kalnia:wght@300&family=Mukta:wght@300&family=Nunito:wght@200&family=Oswald:wght@200&family=Silkscreen:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@500&family=Kalnia:wght@300&family=Merriweather:ital,wght@1,300&family=Mukta:wght@300&family=Nunito:wght@200&family=Oswald:wght@200&family=Silkscreen:wght@700&family=Ubuntu&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.first-part {
+  background-image: url(https://coolwallpapers.me/picsup/5694932-restaurant-wallpapers.jpg);
+  height: 125vh;
+}
+
+.ramka1 {
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+.tekstramkowy1 {
+  width: 1535px;
+  height: 70px;
+  background-color: rgb(255, 249, 249);
+  border-color: rgb(238, 237, 234);
+  display: flex;
+  flex-direction: row;
+}
+.start {
+  font-weight: 900;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.kontakt {
+  font-weight: 500;
+  margin-left: 500px;
+}
+
+.about {
+  margin-left: 600px;
+}
+
+.napis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font-family: Kalnia;
+  font-size: 100px;
+  color: aqua;
+}
+
+.Getstarted {
+  background-color: aqua;
+  border-radius: 10px;
+  border: 0px;
+  height: 75px;
+  width: 250px;
+  margin-top: 75px;
+  color: azure;
+  font-size: large;
+  cursor: pointer;
+  text-align: center;
+  transition: 0, 4s;
+}
+
+.Getstarted:hover {
+  background-color: brown;
+}
+
+.Getstarted:active {
+  box-shadow: yellow;
+}
+
+.klik {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.second-part {
+  background-image: url(https://profitroom-uploads.fra1.digitaloceanspaces.com/restauracjeamax/2400x1080/16826814762055_amaxrestauracjacity03.jpg);
+  height: 100vh;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.Naglowek {
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-part {
+  height: 200vh;
+  flex-direction: column;
+  background-color: rgb(52, 63, 30);
+}
+
+.illustration {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.newrestaurant {
+  display: flex;
+  justify-content: flex-end;
+  font-size: xx-large;
+  margin-left: 100px;
+}
+
+.illustration2 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 170px;
+}
+
+.tekst2 {
+  display: flex;
+  background-color: rgb(89, 36, 36);
+  height: 350px;
+  width: 500px;
+  color: rgb(97, 82, 82);
+  font-family: Merriweather;
+}
+
+.ilustration3 {
+  display: flex;
+  margin-left: 170px;
+}
+
+.text3 {
+  display: flex;
+  background-color: rgb(89, 36, 36);
+  height: 350px;
+  width: 500px;
+  color: rgb(97, 82, 82);
+  font-family: Merriweather;
+}
+
+.fourth-part {
+  background-image: url(https://hiro.pl/wp-content/uploads/2019/07/eatpointpl_rezerwacjastolikaonline-1.jpg);
+  height: 125vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Naglowekzapiszsie {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  font-family: Silkscreen;
+  font-size: 50px;
+  color: aqua;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+  height: 25px;
+}
+
+.inpuuttext {
+  width: 400px;
+  height: 40px;
+}
+
+.buttonzapiszsie {
+  background-color: #64a19d;
+  margin-left: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 0px;
+  height: 45px;
+  width: 150px;
+  transition: 0, 5s;
+}
+
+.buttonzapiszsie:hover {
+  background-color: blueviolet;
+}
+
+.buttonzapiszsie:active {
+  transform: scale(2px);
+}
+
+.zapiszsie {
+  text-decoration: none;
+  color: white;
+}
+
+.boxy {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 250px;
+}
+
+.box1 {
+  background-color: white;
+  width: 19rem;
+  height: 13rem;
+  border-radius: 1rem;
+}
+
+.adres {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.box2 {
+  background-color: white;
+  width: 19rem;
+  height: 13rem;
+  border-radius: 1rem;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.125rem;
+}
+
+.box3 {
+  background-color: white;
+  width: 19rem;
+  height: 13rem;
+  border-radius: 1rem;
+}
+
+.telefon {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.lublin {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  font-family: Mukta;
+}
+
+.twojemail {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  font-family: Mukta;
+}
+
+.twojnumer {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  font-family: Mukta;
+}
+
+.portale {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
